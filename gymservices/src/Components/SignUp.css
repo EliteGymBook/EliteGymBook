@@ -6,12 +6,14 @@
     border-radius: 10px;
     background-color: #f9f9f9;
     margin-top: 150px;
+    /* background: url(Panelbackground.jpg) no-repeat center center/cover; */
+    background-color: grey;
   }
   
   .signup-container h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: rgb(226, 96, 9);
+    color: black;
   }
 
   .signup-form input::placeholder {
@@ -30,6 +32,9 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
+    color: white;
+    background-color: black;
+    opacity: 50%;
   }
   
   .signup-form input[type="checkbox"] {
@@ -40,20 +45,22 @@
   .signup-form .privacy-policy {
     margin-bottom: 15px;
     font-size: 14px;
+    /* font-weight: bold; */
+    /* color: white; */
   }
   
   .signup-form .submit-btn {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
+    background-color: rgb(226, 96, 9);
     color: #fff;
     font-size: 16px;
     cursor: pointer;
   }
   
   .signup-form .submit-btn:hover {
-    background-color: #0056b3;
+    background-color: #7c0000;
   }
   
   .signup-container p {
@@ -63,11 +70,21 @@
   }
   
   .signup-container p a {
-    color: #007bff;
+    color: white;
+    font-weight: bold;
     text-decoration: none;
   }
   
   .signup-container p a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #7c0000;
   }
   
+  a{
+    color: white;
+    font-weight: bold;
+  }
+
+  a:hover{
+    color: #7c0000;
+  }
